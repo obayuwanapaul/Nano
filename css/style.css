@@ -1,0 +1,379 @@
+body {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#carouselExampleIndicators .carousel-caption {
+      top: 55%;
+transform: translateY(-50%);
+    
+}
+
+#carouselExampleIndicators .carousel-caption h1 {
+    font-weight: 500;
+/*    font-size: 64px;*/
+    font-family: 'Alfa Slab One', cursive;
+/*    color: #2D9E1A; */
+}
+
+
+#carouselExampleIndicators .carousel-caption p {
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+#carouselExampleIndicators .carousel-caption a {
+    font-size: 24px;
+}
+
+
+
+
+
+
+.overlay{
+ background-color: rgb(0, 0, 0, 0.5);
+}
+
+
+
+
+
+.bg-secondary {
+     background-color: #2F4858 !important;
+}
+
+nav {
+    height: 90px ! important;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover,
+nav a:active {
+    color: #2D9E1A;
+}
+
+
+.overview {
+    color: #777777;
+    margin-top: 
+}
+
+.overviewhead {
+    color: #777777;
+    background-color: #f9f9f9;
+}
+
+
+
+
+.s4_about_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 10px;
+    grid-template-areas: 
+        "img-selfportrait img-selfportrait img-selfportrait"
+        "hd-about hd-about hd-about"
+        "txt-about txt-about txt-about"
+        ;
+}
+
+ #s4_about {
+        background-color: #2F4858;
+    }
+
+
+.what-we-do {
+    background-color:#2D9E1A; 
+    
+}
+
+.services {
+    color: #a5a5a5;
+}
+
+.services  h4, h5 {
+    color: rgb(44, 70, 45);
+}
+
+.services i {
+    color: #2D9E1A;
+}
+
+.services p {
+    color: #777777;
+}
+
+
+.box {
+   background-color: #2F4858;
+    
+    
+}
+
+.innovation {
+    color: #777777;
+}
+
+.innovation h4 {
+    color: rgb(44, 70, 45);
+}
+
+.strength .clienth {
+    color: #777777;
+}
+
+
+.clients {
+    color: #777777;
+}
+
+
+
+
+.client{
+    /* border: 1px solid black; */
+    /* background: lightgrey; */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.client div{
+    /* border: 1px solid black; */
+    
+}
+
+.client-logo *{
+    display: inline-block;
+}
+
+.client-logo{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.sponsor{
+    /* border: 10px solid red; */
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.sponsor *{
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footersection {
+    background-color: #2F4858;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+.box1,
+.box2,
+.box3 {
+    height: 300px;
+}
+.box1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/travel.jpg");
+    background-position: center;
+    background-size: cover;
+}  
+
+.box2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/energy.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+
+.box3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/finance.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+
+
+.square1 {
+    background-color: #2D9E1A;
+    color: #FFF;
+    height: 300px;
+}
+
+/*
+.square2 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/man3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+*/
+
+.square2 {
+    background-color: #2F4858;
+    height: 300px;
+}
+
+
+.square3 {
+    background-color: #2D9E1A;
+    height: 300px;
+    color: #FFF;
+}
+
+.visionbox {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/man.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+
+.square4 {
+    background-color: #2F4858;
+    height: 300px;
+    color: #FFF;
+}
+
+
+.square5 {
+    background-color: #2D9E1A;
+    height: 300px;
+    color: #FFF;
+}
+
+
+
+.square6 {
+    background-color: #2F4858;
+    height: 300px;
+    color: #FFF;
+}
+
+
+
+.vision {
+    color: #777777;
+}
+
+
+.vision h3 {
+    color: #2D9E1A;
+}
+
+
+.businessapp {
+    color: #777777;
+}
+
+
+.businessapp h3 {
+   color: #2D9E1A;
+}
+
+
+.businessbox {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/Rectangle%201.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+
+.networkbox {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/Rectangle%203.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.itbox {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/Rectangle%202.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+
+
+
+    
+    
+    #s4_about p {
+        line-height: 27px;
+        font-size: 16px;
+    }
+
+#s4_about h3:after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    color: #2D9E1A;
+}
+
+
+.img-selfportrait{
+    grid-area: img-selfportrait;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    }
+
+.hd-about{
+    grid-area: hd-about;
+    text-align: center;
+    }
+.txt-about{
+    grid-area: txt-about;
+    line-height: 2;
+    }
+
+@media (min-width: 768px) {
+    .s4_about_grid {
+       grid-template-areas: 
+        "img-selfportrait hd-about hd-about"
+        "img-selfportrait txt-about txt-about"
+        "img-selfportrait txt-about txt-about"
+        ;
+     }
+    
+.img-selfportrait{
+    grid-column: 1 / 2;
+    }
+
+.hd-about{
+    text-align: left;
+    padding-left: 20px;
+    }
+.txt-about{
+    padding-left: 20px;
+    
+    }
+    
+    
+   
+    
+    
+    
+}
