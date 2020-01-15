@@ -30,6 +30,15 @@ transform: translateY(-50%);
 }
 
 
+/*
+.carousel-inner .carousel-item {
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+  transition: transform 2s ease, -webkit-transform 2s ease;
+}
+*/
+
+
 
 
 
@@ -57,6 +66,27 @@ nav a {
 nav a:hover,
 nav a:active {
     color: #2D9E1A;
+}
+
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+   
+}
+
+/*
+.dropdown:hover>.dropdown-menu  {
+    color: white;
+}
+*/
+
+
+
+.dropdown:hover>.dropdown-menu.dropdown-item {
+    color: green;
+
+    
 }
 
 
@@ -197,19 +227,19 @@ nav a:active {
     height: 300px;
 }
 .box1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/travel.jpg");
+    background-image:  url("../img/travel.jpg");
     background-position: center;
     background-size: cover;
 }  
 
 .box2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/energy.jpg");
+    background-image:  url("../img/energy.jpg");
     background-position: center;
     background-size: cover;
 } 
 
 .box3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.75)), url("../img/finance.jpg");
+    background-image: url("../img/finance.jpg");
     background-position: center;
     background-size: cover;
 } 
@@ -377,3 +407,31 @@ nav a:active {
     
     
 }
+
+
+
+
+
+@media(max-width:900px) {
+    .navbar .nav-item {
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+        background-color: #2F4858;
+    }
+    
+    #carouselExampleIndicators .carousel-item img {
+        height: 800px;
+        
+    }
+    
+    #carouselExampleIndicators .carousel-item {
+           font-size: 30%;
+    }
+    
+    
+}
+
+
+
